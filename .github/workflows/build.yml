@@ -3,7 +3,7 @@ name: Node.js CI Pipeline
 on:
   push:
     branches:
-      - test
+      - git checkout -b SCR-5-creat-and-integrate-user-dashboard
 
 jobs:
   build:
